@@ -16,6 +16,6 @@
 在`Chrome`浏览器中打开淘女郎的主页`https://mm.taobao.com/search_tstar_model.htm?` 按`F12`切换到开发者模式，在`Network`一栏选择`XHR`可以看到目前没有网络活动，但是，在网页中按下下一页的时候，会出现一个名为`https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8` 的POST活动，当再次按下下一页的时候，会再次出现一次该活动，所以，可以断定，数据交换使用的就是这个API。然后我们再来对比这两次请求，在`Headers`框的`FromData`栏中，可以看到两次请求的差别在`currentPage`的不同，一个是2，一个是3，这说明，要想得到第几页的数据，这个`currentPage`的值就是多少。所以我们就根据这个，来编写请求，从而得到全部淘女郎信息的JSON文件。  
 *******  
 ## 运行截图  
-![image](pic\pic1.png )
-![image](pic\pic2.png)
+![image](pic/pic1.png )
+![image](pic/pic2.png)
 
