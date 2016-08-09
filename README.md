@@ -4,7 +4,8 @@
 * requests  
 `pip install requests`  
 * pymongo  
-`pip install pymongo`
+`pip install pymongo`  
+
 ## 模块功能  
 * `TaoLady.py`：  负责发送POST请求和抓取个人信息和图片地址并保存到MongoDB中。  
 * `Download_Pic.py`： 负责从MongoDB中抽取出淘女郎照片的网址，并下载。   
