@@ -1,5 +1,6 @@
 # TaoBaoLady Spider
-淘女郎爬虫，可动态抓取淘女郎的信息和照片。  
+淘女郎爬虫，可动态抓取淘女郎的信息和照片。   
+提供一个已抓取的数据集，大概有13000左右个数据。[点此下载](http://pan.baidu.com/s/1dFMDx2T)
 ## 需要额外安装的第三方库  
 * requests  
 `pip install requests`  
