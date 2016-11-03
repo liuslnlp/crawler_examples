@@ -1,0 +1,21 @@
+{
+    "user": "liu",
+    "proxy_on": true,
+    "proxies": [
+        "one",
+        "two",
+        "three",
+        "...",
+    ],
+    "thread_num": 3,
+    "sleep": 1,
+    "redis": {
+        "host": "localhost",
+        "port": 6379
+    },
+    "mongodb": {
+        "host": "localhost",
+        "port": 27017
+    }
+
+}
